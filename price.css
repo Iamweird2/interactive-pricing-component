@@ -77,21 +77,30 @@ height:  100%;
     background-color: hsl(224, 65%, 95%);
     appearance: none;
 }
-#payment-slide::-webkit-slider-thumb,
-#payment-slide::-moz-slider-thumb{
+#payment-slide::-webkit-slider-thumb{
+    -webkit-appearance: none;
     appearance: none;
     position: relative;
     cursor: pointer;
     z-index: 3;
     width: 30px;
     height: 30px;
+    background-color: transparent;
     border-radius: 50%;
+}
+#payment-slide::-moz-range-thumb{
+    position: relative;
+    cursor: pointer;
+    z-index: 3;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: transparent;
 }
 #range-circle{
     cursor: pointer;
     position: absolute;
     top: 50%;
-    left: 50%;
     transform: translate(-50%, -50%);
     width: 30px;
     height: 30px;
