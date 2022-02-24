@@ -178,6 +178,9 @@ height:  100%;
     justify-content: center;
     align-items: center;
 }
+.discount span{
+ Display: none;
+}
 .line-break{
     width: 100%;
     height: 1px;
@@ -253,6 +256,12 @@ height:  100%;
     .toggle{
         margin-top: 0;
     }
+. discount {
+ Width: auto;
+}
+.discount span{
+ Display: inline;
+}
     .section{
         width: 100%;
         display: flex;
